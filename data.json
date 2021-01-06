@@ -1,0 +1,71 @@
+[
+    {
+        "index": 0,
+        "paragraph":"The Ottoman Empire was an imperial state that lasted from 1299 to 1923. During the 16th and 17th centuries, in particular at the height of its power under the reign of Suleiman the Magnificent, the Ottoman Empire was a powerful multinational, multilingual empire controlling much of Southeast Europe, Western Asia, the Caucasus, North Africa, and the Horn of Africa. At the beginning of the 17th century the empire contained 32 provinces and numerous vassal states. Some of these were later absorbed into the empire, while others were granted various types of autonomy during the course of centuries.",
+        "question": "Who reigned over the Ottoman empire when it was at its most powerful?",
+        "answer": "Suleiman the Magnificent"
+    },
+
+    {
+        "index": 1,
+        "paragraph":"The connection between macroscopic nonconservative forces and microscopic conservative forces is described by detailed treatment with statistical mechanics. In macroscopic closed systems, nonconservative forces act to change the internal energies of the system, and are often associated with the transfer of heat. According to the Second law of thermodynamics, nonconservative forces necessarily result in energy transformations within closed systems from ordered to more random conditions as entropy increases.",
+        "question": "What makes energy changes in a closed system?",
+        "answer": "nonconservative forces"
+    },
+
+    {
+        "index": 2,
+        "paragraph":"Apollo ran from 1961 to 1972, and was supported by the two-man Gemini program which ran concurrently with it from 1962 to 1966. Gemini missions developed some of the space travel techniques that were necessary for the success of the Apollo missions. Apollo used Saturn family rockets as launch vehicles. Apollo/Saturn vehicles were also used for an Apollo Applications Program, which consisted of Skylab, a space station that supported three manned missions in 1973–74, and the Apollo–Soyuz Test Project, a joint Earth orbit mission with the Soviet Union in 1975.",
+        "question": "What program helped develop space travel techniques that Project Apollo used?",
+        "answer": "Gemini"
+    },
+
+    {
+        "index": 3,
+        "paragraph":"During the mid-Eocene, it is believed that the drainage basin of the Amazon was split along the middle of the continent by the Purus Arch. Water on the eastern side flowed toward the Atlantic, while to the west water flowed toward the Pacific across the Amazonas Basin. As the Andes Mountains rose, however, a large basin was created that enclosed a lake; now known as the Solimões Basin. Within the last 5–10 million years, this accumulating water broke through the Purus Arch, joining the easterly flow toward the Atlantic.",
+        "question": "In which direction did the water on the eastern side flow?",
+        "answer": "atlantic / toward the Atlantic"
+    },
+
+    {
+        "index": 4,
+        "paragraph":"In 1873, Tesla returned to his birthtown, Smiljan. Shortly after he arrived, Tesla contracted cholera; he was bedridden for nine months and was near death multiple times. Tesla's father, in a moment of despair, promised to send him to the best engineering school if he recovered from the illness (his father had originally wanted him to enter the priesthood).",
+        "question": "What did Tesla's father originally want him to do?",
+        "answer": "enter the priesthood"
+    },
+
+    {
+        "index": 5,
+        "paragraph":"Between Bingen and Bonn, the Middle Rhine flows through the Rhine Gorge, a formation which was created by erosion. The rate of erosion equaled the uplift in the region, such that the river was left at about its original level while the surrounding lands raised. The gorge is quite deep and is the stretch of the river which is known for its many castles and vineyards. It is a UNESCO World Heritage Site (2002) and known as the Romantic Rhine, with more than 40 castles and fortresses from the Middle Ages and many quaint and lovely country villages.",
+        "question": "How was the Rhine Gorge formed?",
+        "answer": "(by) erosion"
+    },
+
+    {
+        "index": 6,
+        "paragraph":"Chloroplasts are highly dynamic—they circulate and are moved around within plant cells, and occasionally pinch in two to reproduce. Their behavior is strongly influenced by environmental factors like light color and intensity. Chloroplasts, like mitochondria, contain their own DNA, which is thought to be inherited from their ancestor—a photosynthetic cyanobacterium that was engulfed by an early eukaryotic cell. Chloroplasts cannot be made by the plant cell and must be inherited by each daughter cell during cell division.",
+        "question": "How are chloroplasts similar to mitochondria?",
+        "answer": "contain their own DNA"
+    },
+
+    {
+        "index": 7,
+        "paragraph":"Civil disobedience is usually defined as pertaining to a citizen's relation to the state and its laws, as distinguished from a constitutional impasse in which two public agencies, especially two equally sovereign branches of government, conflict. For instance, if the head of government of a country were to refuse to enforce a decision of that country's highest court, it would not be civil disobedience, since the head of government would be acting in her or his capacity as public official rather than private citizen.",
+        "question": "Constitutional impasse is distinct from what key term?",
+        "answer": "civil disobedience"
+    },
+
+    {
+        "index": 8,
+        "paragraph":"The War of the Austrian Succession (whose North American theater is known as King George's War) formally ended in 1748 with the signing of the Treaty of Aix-la-Chapelle. The treaty was primarily focused on resolving issues in Europe. The issues of conflicting territorial claims between British and French colonies in North America were turned over to a commission to resolve, but it reached no decision. Frontiers from between Nova Scotia and Acadia in the north, to the Ohio Country in the south, were claimed by both sides. The disputes also extended into the Atlantic Ocean, where both powers wanted access to the rich fisheries of the Grand Banks off Newfoundland.",
+        "question": "What was the end of the War of the Austrian Succession?",
+        "answer": "Treaty of Aix-la-Chapelle / signing of the Treaty of Aix-la-Chapelle"
+    },
+
+    {
+        "index": 9,
+        "paragraph":"The crisis had a major impact on international relations and created a rift within NATO. Some European nations and Japan sought to disassociate themselves from United States foreign policy in the Middle East to avoid being targeted by the boycott. Arab oil producers linked any future policy changes to peace between the belligerents. To address this, the Nixon Administration began multilateral negotiations with the combatants. They arranged for Israel to pull back from the Sinai Peninsula and the Golan Heights. By January 18, 1974, US Secretary of State Henry Kissinger had negotiated an Israeli troop withdrawal from parts of the Sinai Peninsula. The promise of a negotiated settlement between Israel and Syria was enough to convince Arab oil producers to lift the embargo in March 1974.",
+        "question": "Why did the European nations and Japan separate themselves from United States during the crisis?",
+        "answer": "to avoid being targeted by the boycott"
+    }
+]

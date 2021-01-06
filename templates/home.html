@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>QUESTION-ANSWERING</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+
+        <script src="{{ url_for('static', filename='js/javascript.js') }}"></script>
+    </head>
+    <body>
+        <nav class="nav-site">
+            <a href="/samples">Sample Paragraphs</a>
+            <a href="/tutorial">Tutorial</a>
+            <a href="/adversary_ex">Adversarial attack examples</a>
+        </nav>
+        <h3>Paragraph-Question Pair No. {{data.index+1}}</h3>
+
+        <div class="container">
+            <form id="formId" enctype="multipart/form-data">
+                <div id="para">
+                    <div class="title">Paragraph:</div>
+                    <p>{{data.paragraph}}</p>
+                </div>
+                <div id="qa">
+                    <div><span>Q:  </span><span>{{data.question}}</span></div>
+                    <div><span>A:  </span><span>{{data.answer}}</span></div>
+                </div>
+                <div id="user-input">
+                    <span>Custom Paragraph:</span>
+                    <div id="ta">
+                        <textarea id="para" name="para" cols="70" rows="10">{{data.paragraph}}</textarea>
+                    </div>
+                    <input id="question" name="question" type="text" value="{{data.question}}" readonly />
+                </div>
+                <div id="operations">
+                    {% if data.index > 0 %}
+                        <a href="{{data.index-1}}"><input type="button" value="Previous" id="previous"></a>
+                    {% endif %}
+                    {% if data.index <= 0 %}
+                        <a href="{{data.index-1}}"><input disabled type="button" value="Previous" id="previous"></a>
+                    {% endif %}
+                    <input type="submit" value="Predict" id="predict">
+                    <input type="submit" value="Submit" class="save">
+                    <div>
+                    {% if data.index < 9 %}
+                        <a href="{{data.index+1}}"><input type="button" value="Next" id="next" onclick="myalert()"></a>
+                        <script>
+                        function myalert() {
+                        alert("Please submit your paragraph!");
+                        }
+                        </script>
+                    {% endif %}
+                    {% if data.index >= 9 %}
+                        <a href="{{data.index+1}}"><input disabled type="button" value="Next" id="next"></a>
+                    {% endif %}
+                    <label for="button">{{data.index+1}} of 10</label>
+                    </div>
+                </div>
+            </form>
+            
+            <div id="result">
+                <p>Result here</p>
+            </div>
+
+        </div>
+    </body>
+</html>
